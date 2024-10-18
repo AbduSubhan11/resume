@@ -2,7 +2,8 @@ import React from "react";
 
 function page() {
   return (
-    <div className="font-bold p-5 text-3xl">
+    <div className="p-5 text-3xl space-y-5">
+      <h1 className="font-bold underline">Education</h1>
       <h1>
         Enrolled in Certified Cloud Apllied Generative Ai Engr. course at
         Governor House. I have developed a strong foundation in data analysis
