@@ -1,4 +1,5 @@
 import Image from "next/image";
+import img from "../../Public/Image/my pic.jpg"
 export default function Home() {
   return (
     <>
@@ -16,7 +17,7 @@ export default function Home() {
         </div>
         <div className="md:w-[30%]">
           <Image
-            src={"/Image/my pic.jpg"}
+            src={img}
             alt="my pic"
             width={500}
             height={1000}
